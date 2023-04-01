@@ -1,0 +1,27 @@
+.faq-wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.faq-wrapper h1 {
+    text-align: center;
+}
+
+.faq-item {box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;padding: 16px 30px 20px;margin-bottom: 20px;}
+
+.faq-item h2 {
+    margin: 0;
+    padding-bottom: 9px;
+}
+
+.faq-item p {
+    margin: 0;
+}
+
+  /* Responsive css  */
+  @media only screen and (max-width: 767px) {
+    .faq-item { 
+        padding: 16px 14px 15px; 
+    }
+
+  }

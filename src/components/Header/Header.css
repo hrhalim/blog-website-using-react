@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.header-menu ul {
+    display: flex;
+    gap: 30px;
+}
+.header-logo h1 {
+    margin: 0;
+    border: 1px solid #ddd;
+}
+.header-menu ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: -15px;
+}
+
+  /* Responsive css  */
+  @media only screen and (max-width: 767px) {
+     
+    .header { 
+        align-items: center; 
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .header-menu ul { 
+        gap: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    .header-menu ul li { 
+        font-size: 18px; 
+    } 
+  }
